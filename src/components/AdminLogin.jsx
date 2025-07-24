@@ -140,16 +140,6 @@ function AdminLogin() {
               </div>
             </div>
           </div>
-
-          {/* Back to Site */}
-          <div className="mt-6 text-center">
-            <a 
-              href="/"
-              className="text-sm text-blue-600 hover:text-blue-700 transition-colors"
-            >
-              ← Volver al sitio principal
-            </a>
-          </div>
         </div>
       </div>
     </div>
