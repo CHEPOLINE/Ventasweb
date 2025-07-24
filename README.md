@@ -103,6 +103,36 @@ npm run build    # Construir para producción
 npm run preview  # Vista previa de producción
 ```
 
+## 🚀 Despliegue
+
+### 📋 Configuración de Servidor
+
+**IMPORTANTE:** Para que las rutas funcionen en producción, necesitas configurar tu servidor:
+
+#### 🔹 Vercel
+- ✅ Archivo `vercel.json` incluido
+- ✅ Configuración automática
+
+#### 🔹 Netlify  
+- ✅ Archivo `netlify.toml` incluido
+- ✅ Archivo `_redirects` incluido
+
+#### 🔹 Apache
+- ✅ Archivo `.htaccess` incluido
+- ✅ Sube todo el contenido de `dist/`
+
+#### 🔹 Nginx
+Agrega esta configuración:
+```nginx
+location / {
+  try_files $uri $uri/ /index.html;
+}
+```
+
+### Netlify (Recomendado)
+
+#### Despliegue Automático desde GitHub:
+
 ## 📞 Soporte
 
 Para soporte técnico o consultas sobre el proyecto, contacta al equipo de desarrollo.
