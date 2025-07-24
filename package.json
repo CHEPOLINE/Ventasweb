@@ -1,8 +1,12 @@
 {
   "name": "chepoline",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
+  "description": "Sistema completo de gestión de planes con panel de administrador y vista de cliente",
+  "keywords": ["react", "vite", "tailwind", "plans", "admin-panel"],
+  "author": "Chepoline Team",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +15,8 @@
   "dependencies": {
     "lucide-react": "^0.525.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -21,5 +26,13 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/chepoline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/chepoline/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/chepoline#readme"
 }

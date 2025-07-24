@@ -5,6 +5,34 @@
 ---
 
 ## 📝 Historial de Cambios
+
+### v2.5.1 - 2024-01-XX (BACKUP ESTABLE ANTES DE CAMBIO GRANDE)
+**📦 VERSIÓN DE RESPALDO CREADA:**
+- ✅ **Backup completo** guardado en `BACKUP_v2.5.1_STABLE.jsx`
+- ✅ **Todas las funcionalidades** operativas y probadas
+- ✅ **Persistencia de datos** funcionando correctamente
+- ✅ **Configuración de contacto** completamente implementada
+- ✅ **Editor de planes** con todas las opciones
+- ✅ **Servicios adicionales** en pantalla separada
+- ✅ **UX optimizada** según v2.5.0
+
+**🔧 Estado Técnico:**
+- ✅ **localStorage** para planes, servicios y contacto
+- ✅ **Modal de configuración** de contacto funcional
+- ✅ **Menú desplegable** con cursor correcto
+- ✅ **Burbuja del carrito** con precio dinámico
+- ✅ **Botón de contacto** flotante con datos configurables
+- ✅ **Sin errores** de JavaScript o React
+
+**📁 Archivos de Respaldo:**
+- `BACKUP_v2.5.1_STABLE.jsx` - Versión completa funcional
+- `CHANGELOG.md` - Documentación actualizada
+
+**🚨 IMPORTANTE:**
+Esta versión está lista para ser restaurada en caso de que el próximo cambio grande cause problemas. Todas las funcionalidades están probadas y funcionando correctamente.
+
+---
+
 ## 📝 Historial de Cambios
 
 ### v2.4.16 - 2024-01-XX (MEJORA PANTALLA SERVICIOS)
